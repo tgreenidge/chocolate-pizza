@@ -38,11 +38,12 @@ header ul li img {
     height: 25px;
     margin-right: 2px;
 }
-header p {
+main div:nth-child(1) p:nth-child(2) {
     font-size: 0.7em;
     margin: 0;
     line-height: 1em;
     letter-spacing: 0.7px;
+    text-indent: 0px !important;
 }
 nav {
     height: 75px;
@@ -155,11 +156,21 @@ footer div span {
     background-image: url(assets/hr-img.png);
     background-size: 3px;
     background-repeat: repeat;
+    margin-top: 20px;
 }
 
 footer img {
     width: 3% !important;
     float: left;
     margin: 0 !important;
-    
 }
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    clear: both;
+    color: grey;
+    line-height: 20px;
+}
+
+
