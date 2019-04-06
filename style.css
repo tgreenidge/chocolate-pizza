@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Anton|Shadows+Into+Light+Two');
+
 body {
     width: 80%;
     margin: 0 auto;
@@ -65,7 +67,6 @@ main h1 {
 main {
     margin: 2em auto;
 }
-
 main p span {
     line-height: 1em;
     letter-spacing: 0.7px;
@@ -80,4 +81,85 @@ main p span:last-child {
 div:nth-child(1) > img {
    margin: 1.5em 0;
    width: 100%;
+}
+main p:not(:first-child) {
+    text-indent: 48px;
+    font-size: 25px;
+    font-family: serif;
+    color: grey;
+    line-height: 25px;
+    padding: 10px 0;
+}
+main > div:nth-child(1) > div:nth-child(7) {
+    height: 350px;
+    margin: 20px 0;
+    background-image: url(assets/list-bg.png);
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    padding: 45px 80px 0px 80px;
+}
+
+main > div:nth-child(1) > div:nth-child(7)  ul {
+   width: 50%;
+   float: left;
+   font-family: 'Shadows Into Light Two', cursive;
+   font-size: 22px;
+}
+
+main > div:nth-child(1) > div:nth-child(7)  ul li {
+    line-height: 20px;
+    margin-bottom: 13px;
+    color: grey;
+    font-weight: 600;
+}
+
+main div:first-child div:last-child {
+    margin-bottom: 30px;
+}
+
+main > div:nth-child(2) img {
+    width: 8%;
+    float: left;
+}
+
+main > div:nth-child(2) span {
+    width: 72%;
+    float: left;
+}
+
+main > div:nth-child(2) span p {
+    font-size: 25px;
+    text-indent: 0px;
+    margin-left: 5px;
+}
+
+main > div:nth-child(2) span h2 {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+main > div:nth-child(2) button {
+    width: 20%;
+    float: left;
+    background: coral;
+    height: 50px;
+    color: white;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+footer div span {
+    width: 48.5%;
+    float: left;
+    height: 1px;
+    background-image: url(assets/hr-img.png);
+    background-size: 3px;
+    background-repeat: repeat;
+}
+
+footer img {
+    width: 3% !important;
+    float: left;
+    margin: 0 !important;
+    
 }
